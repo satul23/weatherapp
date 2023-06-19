@@ -62,6 +62,10 @@ body{
 
 }
 
+#para{
+    text-transform: capitalize;
+}
+
 .tempinformation{
     width: 25rem;
     margin: auto;
@@ -76,7 +80,7 @@ body{
 .top_layer{
     width: 100%;
     height: 1rem;
-    background-color: #61619f;
+    /* background-color: #61619f; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,15 +130,15 @@ body{
 }
 
 .temp_form input [type="search"] {
-    width: 100%;
+    width: 500%;
     padding: 2rem 5rem 2rem 2rem;
     border-radius: 3rem;
 }
 
-/* .data_hide {
+.data_hide {
     visibility: hidden;
     transition: all 0.3s linear;
-} */
+}
 
  footer{
     margin-top: auto;
